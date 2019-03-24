@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ClothesViewController.swift
 //  MyCloset
 //
 //  Created by Teki Hou on 2019/03/24.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ClothesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
