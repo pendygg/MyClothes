@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0A54EA2247A6E800752FF4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A54E92247A6E800752FF4 /* Launch Screen.storyboard */; };
+		2D0A54EF2247A7C900752FF4 /* ClosetIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A54EE2247A7C900752FF4 /* ClosetIcon.png */; };
 		2DBCAE9C22479D6900BE5C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBCAE9B22479D6900BE5C68 /* AppDelegate.swift */; };
 		2DBCAE9E22479D6900BE5C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBCAE9D22479D6900BE5C68 /* ViewController.swift */; };
 		2DBCAEA122479D6900BE5C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBCAE9F22479D6900BE5C68 /* Main.storyboard */; };
 		2DBCAEA322479D6A00BE5C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBCAEA222479D6A00BE5C68 /* Assets.xcassets */; };
-		2DBCAEA622479D6A00BE5C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBCAEA422479D6A00BE5C68 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0A54E92247A6E800752FF4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2D0A54EE2247A7C900752FF4 /* ClosetIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClosetIcon.png; sourceTree = "<group>"; };
 		2DBCAE9822479D6900BE5C68 /* MyCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBCAE9B22479D6900BE5C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBCAE9D22479D6900BE5C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DBCAEA022479D6900BE5C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2DBCAEA222479D6A00BE5C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DBCAEA522479D6A00BE5C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DBCAEA222479D6A00BE5C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/../../../../../../../../../Users/tekiiii/Library/Mobile Documents/com~apple~CloudDocs/Swift/MyCloset/MyClothes/MyCloset/MyCloset/Assets.xcassets"; sourceTree = "<absolute>"; };
 		2DBCAEA722479D6A00BE5C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0A54EB2247A76900752FF4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2D0A54EE2247A7C900752FF4 /* ClosetIcon.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		2DBCAE8F22479D6900BE5C68 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +64,13 @@
 		2DBCAE9A22479D6900BE5C68 /* MyCloset */ = {
 			isa = PBXGroup;
 			children = (
+				2D0A54EB2247A76900752FF4 /* Image */,
 				2DBCAE9B22479D6900BE5C68 /* AppDelegate.swift */,
 				2DBCAE9D22479D6900BE5C68 /* ViewController.swift */,
 				2DBCAE9F22479D6900BE5C68 /* Main.storyboard */,
 				2DBCAEA222479D6A00BE5C68 /* Assets.xcassets */,
-				2DBCAEA422479D6A00BE5C68 /* LaunchScreen.storyboard */,
 				2DBCAEA722479D6A00BE5C68 /* Info.plist */,
+				2D0A54E92247A6E800752FF4 /* Launch Screen.storyboard */,
 			);
 			path = MyCloset;
 			sourceTree = "<group>";
@@ -122,7 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DBCAEA622479D6A00BE5C68 /* LaunchScreen.storyboard in Resources */,
+				2D0A54EF2247A7C900752FF4 /* ClosetIcon.png in Resources */,
+				2D0A54EA2247A6E800752FF4 /* Launch Screen.storyboard in Resources */,
 				2DBCAEA322479D6A00BE5C68 /* Assets.xcassets in Resources */,
 				2DBCAEA122479D6900BE5C68 /* Main.storyboard in Resources */,
 			);
@@ -149,14 +161,6 @@
 				2DBCAEA022479D6900BE5C68 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2DBCAEA422479D6A00BE5C68 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DBCAEA522479D6A00BE5C68 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,14 +289,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYXYCR2H85;
 				INFOPLIST_FILE = MyCloset/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teki.MyCloset;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teki.MyCloset2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,14 +308,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYXYCR2H85;
 				INFOPLIST_FILE = MyCloset/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teki.MyCloset;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teki.MyCloset2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
